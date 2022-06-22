@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER I</title>
+    <link rel="stylesheet" href="./style/current.css">
+    <link rel="stylesheet" href="./style/nav.css" />
+    <link rel="stylesheet" href="./style/body.css" />
+    <link rel="stylesheet" href="./style/map.css" />
+    <link rel="stylesheet" href="./style/keyframe.css">
+    <style>
+      /* #background{
+        background-image: ;
+      } */
+    </style>
+  </head>
+  <body>
+    <div id="background">
+      <img src="" alt="">
+      <nav>
+        <div id="navIn">
+          <input type="search" id="search" placeholder="Enter city name" />
+          <!-- <img id="searchButton" src="./images/search(1).png" /> -->
+          <img id="detectLocation" src="./images/location(1).png" />
+        </div>
+      </nav>
+      <div id="container">
+
+        <div id="current"></div>
+        <div id="sunRise">
+          <div id="CurrentTIme"></div>
+          <div id="sunrises"></div>
+        </div>
+      </div>
+
+      <div class="hourlyUpdateBox">
+        <span>hourly Update</span>
+        <div id="hourlyUpdate"></div>
+      </div>
+
+      <div class="hourlyUpdateBox">
+        <span>Daily Update</span>
+        <div id="sevenDaysUpdate"></div>
+      </div>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=sutahata&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <h5>
+        <a href="https://www.linkedin.com/in/archeese/"> @Archie </a>
+      </h5>
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/datadeclare.js"></script>

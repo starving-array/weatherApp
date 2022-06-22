@@ -1,0 +1,23 @@
+/* .boxHourDiv {
+  animation-name: hourslide;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
+  animation-duration: 4px;
+  animation-delay: 30s;
+  position: relative;
+}
+
+@keyframes hourslide {
+    from{
+        right: 0px;
+    }to{
+        right: 10000px;
+    } */
+}
+
+@media all and (min-width:400px) and (max-width:680px) {
+    .hourlyUpdateBox{
+        width: 90%;
+    }
+}
